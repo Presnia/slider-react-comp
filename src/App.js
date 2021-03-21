@@ -7,10 +7,11 @@ import "./App.css";
 const App = () => {
     return(
       <div className="slider">
-        <h1> Hello, World! </h1>
-        <Card />
+        <section className="slider-wrapper">
+          <Card />
+        </section>
       </div>
     );
 }
 
-export default App;
+export default hot(module)(App);
