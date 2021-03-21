@@ -41,6 +41,7 @@ build/Release
 node_modules/
 jspm_packages/
 dist/
+idea/
 
 # TypeScript v1 declaration files
 typings/
@@ -87,3 +88,5 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+.idea
