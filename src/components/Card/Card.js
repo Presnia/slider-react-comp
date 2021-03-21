@@ -4,11 +4,15 @@ import './Card.css';
 const Card = ({ img }) => {
   return (
     <div className="card">
-      <img className={img} src="/" alt="slider image"/>
-      <section className="slide-description">
-        <h1>This is slide image</h1>
-        <p>Some description</p>
-      </section>
+      <div className="card-wrapper">
+        <div className="image-wrapper">
+          <img className="image" src={img} alt="slider image"/>
+        </div>
+        <section className="slide-description">
+          <h1>This is slide image</h1>
+          <p>Some description</p>
+        </section>
+      </div>
     </div>
   );
 };

@@ -21,6 +21,7 @@ const App = () => {
 
     return(
       <div className="slider">
+        <h1>Slider</h1>
         <section className="slider-wrapper">
           {
             images.map(pics => <Card img={pics}/>)
