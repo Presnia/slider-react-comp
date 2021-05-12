@@ -7,7 +7,7 @@ const App = () => {
 
     return(
       <div className="slider">
-        <h1>Slider</h1>
+        <h1>My favourite pics</h1>
         <SliderPage />
       </div>
     );

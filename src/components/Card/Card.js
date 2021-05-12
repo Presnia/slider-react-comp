@@ -9,7 +9,7 @@ const Card = ({ img }) => {
           <img className="image" src={img} alt="slider image"/>
         </div>
         <section className="slide-description">
-          <h1>This is slide image</h1>
+          <h2>This is slide image</h2>
           <p>Some description</p>
         </section>
       </div>
