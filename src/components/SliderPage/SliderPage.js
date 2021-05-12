@@ -5,7 +5,11 @@ import camomile from "../../assets/img/camomile.jpg";
 import mountain from "../../assets/img/mountain.jpeg";
 import rock from "../../assets/img/rock.jpeg";
 import waterfall from "../../assets/img/waterfall.jpeg";
+import FetchData from "../../service/FetchData";
 import './SliderPage.css';
+
+const img = new FetchData();
+console.log(img)
 
 const images = [
   alone,
