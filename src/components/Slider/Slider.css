@@ -1,0 +1,11 @@
+.slider-container {
+
+}
+
+.slider-container.active {
+    display: block;
+}
+
+.slider-container.inactive {
+   display: none;
+}
