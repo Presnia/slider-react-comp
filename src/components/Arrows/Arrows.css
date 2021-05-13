@@ -1,7 +1,7 @@
 .prev,
 .next {
     cursor: pointer;
-    z-index: 100;
+    z-index: 3;
     position: absolute;
     top: 50%;
     width: auto;
@@ -19,6 +19,6 @@
 }
 
 .next {
-    right: 0;
+    right: 20px;
     border-radius: 5px 0 0 5px;
 }

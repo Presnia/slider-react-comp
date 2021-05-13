@@ -60,22 +60,22 @@ const sliderImage = [
     urls: 'https://mdbootstrap.com/img/Photos/Slides/img%20(117).jpg',
   },
   {
-    title: 'Fifth slide',
+    title: 'Thirteenth slide',
     description: 'This is the Fifth Slider of our Carousel',
     urls: 'https://mdbootstrap.com/img/Photos/Slides/img%20(118).jpg',
   },
   {
-    title: 'Fifth slide',
+    title: 'Fourteenth slide',
     description: 'This is the Fifth Slider of our Carousel',
     urls: 'https://mdbootstrap.com/img/Photos/Slides/img%20(112).jpg',
   },
   {
-    title: 'Fifth slide',
+    title: 'Fifteenth slide',
     description: 'This is the Fifth Slider of our Carousel',
     urls: 'https://mdbootstrap.com/img/Photos/Slides/img%20(111).jpg',
   },
   {
-    title: 'Fifth slide',
+    title: 'Sixteenth slide',
     description: 'This is the Fifth Slider of our Carousel',
     urls: 'https://mdbootstrap.com/img/Photos/Slides/img%20(110).jpg',
   },

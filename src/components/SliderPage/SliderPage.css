@@ -4,3 +4,8 @@
     justify-content: space-between;
 }
 
+.slider-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

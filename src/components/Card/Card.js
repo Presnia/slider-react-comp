@@ -4,8 +4,8 @@ import './Card.css';
 
 const Card = ({ activeIndex }) => {
   return (
-    <section>{SliderImage.map((slide, index) =>
-      <div key={index} className={`card ${index === activeIndex ? "slides active" : "slides inactive"}`}>
+    <section className="slider-section">{SliderImage.map((slide, index) =>
+      <div key={index} className={`card ${index === activeIndex ? "slides active" : "inactive"}`}>
         <div className="card-wrapper">
           <div className="image-wrapper">
             <img className="image" src={slide.urls} alt="slider image"/>
