@@ -6,10 +6,14 @@ import "./App.css";
 const App = () => {
 
     return(
-      <div className="slider">
-        <h1>My favourite pics</h1>
-        <SliderPage />
-      </div>
+      <>
+        <div className="slider-header">
+          <h1>My favourite pics</h1>
+        </div>
+        <div className="slider">
+          <SliderPage />
+        </div>
+      </>
     );
 }
 
