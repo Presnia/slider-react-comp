@@ -8,7 +8,7 @@ const SliderPage = () => {
   return (
     <Fragment>
       <Card />
-      <Slider />
+
     </Fragment>
   );
 };
