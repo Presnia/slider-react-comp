@@ -9,12 +9,10 @@ const len = SliderImage.length - 1;
 
 const Slider = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  console.log(activeIndex)
 
   return (
-    <div className="slider-container">
-      <Card activeIndex={activeIndex}
-            onClickCard={(activeIndex) => setActiveIndex(activeIndex)} />
+    <div className="slider-container inactive">
+      <Card />
       <Arrows
       prevSlide={() =>
         setActiveIndex(activeIndex < 1 ? len : activeIndex - 1)}
