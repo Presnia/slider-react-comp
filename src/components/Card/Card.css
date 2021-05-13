@@ -9,6 +9,7 @@
     background-color: transparent;
     border-radius: 12px;
     box-shadow: 2px 4px 10px #e2e2e2;
+    cursor: pointer;
 }
 
 .card-wrapper {
@@ -36,11 +37,11 @@
     z-index: 3;
 }
 
-.slide-description h2 {
+.slide-description h3 {
     margin: 0;
     color: #7dadfd;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .slide-description p {
