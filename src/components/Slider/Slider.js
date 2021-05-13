@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SliderImage from "../SliderData/SliderData";
-import Card from "../Card/Card";
+import SliderContent from "../SliderContent/SliderContent";
 import Arrows from "../Arrows/Arrows";
 import Dots from "../Dots/Dots";
 import "./Slider.css";
@@ -11,8 +11,8 @@ const Slider = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="slider-container inactive">
-      <Card />
+    <div className="slider-container active">
+      <SliderContent activeIndex={activeIndex} />
       <Arrows
       prevSlide={() =>
         setActiveIndex(activeIndex < 1 ? len : activeIndex - 1)}

@@ -10,12 +10,12 @@ const Card = ({ activeIndex, onClickCard }) => {
            onClick={event => onClickCard(event.target.value = index)}>
         <div className="card-wrapper">
           <div className="image-wrapper">
-            <img className="image slide-image"
+            <img className="image"
                  src={slide.urls} alt="slide"/>
           </div>
           <section className="slide-description">
-            <h3 className="slide-title">{slide.title}</h3>
-            <p className="slide-text">{slide.description}</p>
+            <h3>{slide.title}</h3>
+            <p>{slide.description}</p>
           </section>
         </div>
       </div>)}
