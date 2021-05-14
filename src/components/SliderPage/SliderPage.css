@@ -11,3 +11,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.slider-section.active {
+    display: flex;
+}
+
+.slider-section.inactive {
+    display: none;
+}

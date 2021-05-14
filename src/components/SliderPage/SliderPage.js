@@ -9,7 +9,7 @@ const SliderPage = () => {
   return (
     <Fragment>
       <Card activeCard={activeCard}
-            onClickCard={activeCard => setActiveCard(activeCard)}/>
+            onClickCard={activeCard => setActiveCard(activeCard)} />
       <Slider />
     </Fragment>
   );
