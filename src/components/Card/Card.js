@@ -6,7 +6,7 @@ const Card = ({ activeIndex, onClickCard }) => {
   return (
     <section className="slider-section">{SliderImage.map((slide, index) =>
       <div key={index}
-           className={`card ${index === activeIndex ? "slides active" : "inactive"}`}
+           className={`card ${index === activeIndex ? "slides inactive" : "active"}`}
            onClick={event => onClickCard(event.target.value = index)}>
         <div className="card-wrapper">
           <div className="image-wrapper">

@@ -3,7 +3,6 @@ import Card from "../Card/Card";
 import Slider from "../Slider/Slider";
 import './SliderPage.css';
 
-
 const SliderPage = () => {
   const [activeCard, setActiveCard] = useState(0);
 

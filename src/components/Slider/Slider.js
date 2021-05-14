@@ -11,7 +11,7 @@ const Slider = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="slider-container active">
+    <div className="slider-container inactive">
       <SliderContent activeIndex={activeIndex} />
       <Arrows
       prevSlide={() =>

@@ -44,6 +44,7 @@
     top: 70%;
     left: 35%;
     z-index: 9;
+    cursor: pointer;
 }
 
 .slide-title {
@@ -53,4 +54,9 @@
 .slide-text {
     top: 77%;
     font-size: 20px;
+}
+
+.slide-title:hover,
+.slide-text:hover {
+    color: #000;
 }
