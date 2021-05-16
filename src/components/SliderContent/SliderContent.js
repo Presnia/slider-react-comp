@@ -17,6 +17,7 @@ const SliderContent = ({ activeIndex }) => {
       key={index}
       className={index === activeIndex ? "slides active" : "inactive"}
       onDoubleClick={handleClickCard}
+      onTouchEnd={handleClickCard}
     >
       <img className="slide-image" src={slide.urls} alt="slide" />
       <h3 className="slide-title">{slide.title}</h3>

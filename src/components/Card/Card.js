@@ -19,6 +19,7 @@ const Card = ({ activeIndex, onClickCard }) => {
            className={`card ${index === activeIndex ? "slides inactive" : "active"}`}
            onClick={event => onClickCard(event.target.value = index)}
            onDoubleClick={handleClickCard}
+           onTouchEnd={handleClickCard}
       >
         <div className="card-wrapper">
           <div className="image-wrapper">
