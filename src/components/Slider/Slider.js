@@ -9,15 +9,15 @@ const len = SliderImage.length - 1;
 
 const Slider = () => {
   const [activeIndex, setActiveIndex] = useState(0);
+  const prevSlide = () => setActiveIndex(activeIndex < 1 ? len : activeIndex - 1);
+  const nextSlide = () => setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);
 
   return (
     <div className="slider-container inactive">
       <SliderContent activeIndex={activeIndex} />
       <Arrows
-      prevSlide={() =>
-        setActiveIndex(activeIndex < 1 ? len : activeIndex - 1)}
-      nextSlide={() =>
-        setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)}
+          prevSlide={() => prevSlide()}
+          nextSlide={() => nextSlide()}
       />
       <Dots activeIndex={activeIndex}
           onClick={(activeIndex) => setActiveIndex(activeIndex)}
