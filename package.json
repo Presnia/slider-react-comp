@@ -1,11 +1,14 @@
 {
+  "homepage": "https://github.com/Presnia/slider-react-comp",
   "name": "slider-react-comp",
   "version": "1.0.0",
   "description": "Slider with React.js",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode development"
+    "build": "webpack --mode development",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
   },
   "author": "Andrei Dzebysh",
   "license": "MIT",
@@ -18,6 +21,7 @@
     "babel-loader": "^8.0.2",
     "css-loader": "^1.0.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.1.0",
     "react-hot-loader": "^4.13.0",
     "style-loader": "^0.23.0",
     "webpack": "^4.19.1",
