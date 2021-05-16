@@ -26,12 +26,12 @@ const sliderImage = [
   },
   {
     title: 'Sixth slide',
-    description: 'This is the Fifth Slider of our Carousel',
+    description: 'This is the Sixth Slider of our Carousel',
     urls: 'https://mdbootstrap.com/img/Photos/Slides/img%20(141).jpg',
   },
   {
     title: 'Seventh slide',
-    description: 'This is the Fifth Slider of our Carousel',
+    description: 'This is the Seventh Slider of our Carousel',
     urls: 'https://mdbootstrap.com/img/Photos/Slides/img%20(151).jpg',
   },
   {
@@ -41,7 +41,7 @@ const sliderImage = [
   },
   {
     title: 'Ninth slide',
-    description: 'This is the Fifth Slider of our Carousel',
+    description: 'This is the Eighth Slider of our Carousel',
     urls: 'https://mdbootstrap.com/img/Photos/Slides/img%20(146).jpg',
   },
   {
@@ -51,32 +51,32 @@ const sliderImage = [
   },
   {
     title: 'Eleventh slide',
-    description: 'This is the Fifth Slider of our Carousel',
+    description: 'This is the Tenth Slider of our Carousel',
     urls: 'https://mdbootstrap.com/img/Photos/Slides/img%20(123).jpg',
   },
   {
     title: 'Twelfth slide',
-    description: 'This is the Fifth Slider of our Carousel',
+    description: 'This is the Twelfth Slider of our Carousel',
     urls: 'https://mdbootstrap.com/img/Photos/Slides/img%20(117).jpg',
   },
   {
     title: 'Thirteenth slide',
-    description: 'This is the Fifth Slider of our Carousel',
+    description: 'This is the Thirteenth Slider of our Carousel',
     urls: 'https://mdbootstrap.com/img/Photos/Slides/img%20(118).jpg',
   },
   {
     title: 'Fourteenth slide',
-    description: 'This is the Fifth Slider of our Carousel',
+    description: 'This is the Fourteenth Slider of our Carousel',
     urls: 'https://mdbootstrap.com/img/Photos/Slides/img%20(112).jpg',
   },
   {
     title: 'Fifteenth slide',
-    description: 'This is the Fifth Slider of our Carousel',
+    description: 'This is the Fifteenth Slider of our Carousel',
     urls: 'https://mdbootstrap.com/img/Photos/Slides/img%20(111).jpg',
   },
   {
     title: 'Sixteenth slide',
-    description: 'This is the Fifth Slider of our Carousel',
+    description: 'This is the Sixteenth Slider of our Carousel',
     urls: 'https://mdbootstrap.com/img/Photos/Slides/img%20(110).jpg',
   },
 ];
