@@ -1,6 +1,8 @@
 import React from "react";
 import SliderImage from "../SliderData/SliderData";
+import CardItem from "../CardItem/CardItem";
 import './Card.css';
+
 
 const Card = ({ activeIndex, onClickCard }) => {
   const handleClickCard = () => {
@@ -21,16 +23,7 @@ const Card = ({ activeIndex, onClickCard }) => {
            onDoubleClick={handleClickCard}
            onTouchEnd={handleClickCard}
       >
-        <div className="card-wrapper">
-          <div className="image-wrapper">
-            <img className="image"
-                 src={slide.urls} alt="slide"/>
-          </div>
-          <section className="slide-description">
-            <h3>{slide.title}</h3>
-            <p>{slide.description}</p>
-          </section>
-        </div>
+        <CardItem slide={slide} />
       </div>)}
     </section>
   );
