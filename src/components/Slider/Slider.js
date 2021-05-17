@@ -7,8 +7,7 @@ import "./Slider.css";
 
 const len = SliderImage.length - 1;
 
-const Slider = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+const Slider = ({ activeIndex, setActiveIndex }) => {
   const prevSlide = () => setActiveIndex(activeIndex < 1 ? len : activeIndex - 1);
   const nextSlide = () => setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);
 

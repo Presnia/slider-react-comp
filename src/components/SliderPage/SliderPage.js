@@ -5,12 +5,13 @@ import './SliderPage.css';
 
 const SliderPage = () => {
   const [activeCard, setActiveCard] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <Fragment>
       <Card activeCard={activeCard}
             onClickCard={activeCard => setActiveCard(activeCard)} />
-      <Slider />
+      <Slider activeIndex={activeIndex} setActiveIndex={setActiveIndex} />
     </Fragment>
   );
 };

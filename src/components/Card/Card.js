@@ -1,6 +1,7 @@
 import React from "react";
 import SliderImage from "../SliderData/SliderData";
 import CardItem from "../CardItem/CardItem";
+import getWidth from "../GetWidth/getWidth";
 import './Card.css';
 
 
@@ -23,7 +24,7 @@ const Card = ({ activeIndex, onClickCard }) => {
            onDoubleClick={handleClickCard}
            onTouchEnd={handleClickCard}
       >
-        <CardItem slide={slide} />
+        <CardItem slide={slide} width={getWidth()} />
       </div>)}
     </section>
   );
